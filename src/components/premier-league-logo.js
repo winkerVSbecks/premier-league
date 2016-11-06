@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import clrs from '../clrs';
+import { clrs } from '../styles';
 
 const PremierLeagueLogo = ({ css, fill = clrs.white }) => (
   <svg viewBox="0 0 259 322" version="1.1" xmlns="http://www.w3.org/2000/svg" className={ css }>

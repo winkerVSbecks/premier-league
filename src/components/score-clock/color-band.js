@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react';
 import css, { merge } from 'next/css';
-import dimensions from '../dimensions';
+import { dimensions, sizeScale } from '../../styles';
 
 const band = css({
   width: dimensions.band,
-  height: dimensions.height,
+  height: sizeScale[0],
 });
 
 const ColorBand =  ({ color, css = {} }) => (
