@@ -1,15 +1,15 @@
 import React, { PropTypes } from 'react';
 import css from 'next/css';
 import ColorBand from './color-band';
-import TeamName from './team-name';
-import dimensions from '../dimensions';
+import TeamAbbr from './team-abbr';
+import { dimensions } from '../../styles';
 
 const teamBox = css({ display: 'flex' });
 
 const HomeTeam = ({ name, color }) => (
   <div className={ teamBox }>
     <ColorBand color={ color } css={{ marginRight: dimensions.gutter }} />
-    <TeamName name={ name } />
+    <TeamAbbr name={ name } />
   </div>
 );
 

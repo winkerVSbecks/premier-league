@@ -4,7 +4,10 @@
   "description": "⚽🏆",
   "main": "index.js",
   "dependencies": {
-    "next": "*",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.15.2",
+    "next": "^1.1.0",
+    "ramda": "^0.22.1",
     "recompose": "^0.20.2"
   },
   "devDependencies": {
@@ -22,7 +25,11 @@
     "build": "next build",
     "start": "next start"
   },
-  "keywords": ["premier", "league", "football"],
+  "keywords": [
+    "premier",
+    "league",
+    "football"
+  ],
   "author": "Varun Vachhar (http://varun.ca)",
   "license": "MIT"
 }

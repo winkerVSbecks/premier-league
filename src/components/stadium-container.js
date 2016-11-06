@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import css, { before, after, merge } from 'next/css';
-import clrs from '../clrs';
+import { clrs } from '../styles';
 
 const fieldBase = css({
   display: 'flex',
