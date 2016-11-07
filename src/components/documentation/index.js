@@ -31,7 +31,7 @@ const Documentation = () => (
     </DocsBody>
 
     <DocsHeading level={ 2 }>
-      ⏲ /scoreclock?home=
+      ⏱ /scoreclock?home=
       <AltSpan css={ dynamic }>:home_team</AltSpan>&away=
       <AltSpan css={ dynamic }>:away_team</AltSpan>
     </DocsHeading>
